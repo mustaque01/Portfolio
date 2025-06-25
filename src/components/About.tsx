@@ -23,7 +23,7 @@ const About: React.FC = () => {
 
           <div>
             <p className="text-lg text-gray-700 mb-6">
-              I'm a passionate full-stack developer with over 5 years of experience creating 
+              I'm a passionate full-stack developer creating 
               web applications that combine beautiful design with robust functionality. 
               I specialize in React, Node.js, and modern web technologies.
             </p>

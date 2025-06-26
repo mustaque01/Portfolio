@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
               Let's work together on your next project
             </p>
             <p className="text-gray-400">
-              alex.johnson@example.com
+              mustakarman560@gmail.com
             </p>
           </div>
         </div>
@@ -68,10 +68,7 @@ const Footer: React.FC = () => {
           <p className="text-gray-400 flex items-center justify-center space-x-1">
             <span>Made with</span>
             <Heart size={16} className="text-red-500" />
-            <span>by Alex Johnson</span>
-          </p>
-          <p className="text-gray-500 text-sm mt-2">
-            © 2024 Alex Johnson. All rights reserved.
+            <span>MD MUSTAK</span>
           </p>
         </div>
       </div>

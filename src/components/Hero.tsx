@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Hi, I'm{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                Alex Johnson
+                Md Mustak
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
             </p>
             <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-12">
               I create beautiful, functional, and user-centered digital experiences. 
-              With 5+ years of experience in web development, I bring ideas to life through code.
+              Passionate about coding, design, and making the web a better place.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} className="text-blue-600" />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:mustakarman560@gmail.com"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
             >
               <Mail size={24} className="text-green-600" />

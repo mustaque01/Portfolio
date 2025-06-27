@@ -78,7 +78,12 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="mt-16 animate-bounce">
-            <button onClick={scrollToAbout} className="text-gray-400 hover:text-gray-600 transition-colors duration-200">
+            <button
+              onClick={scrollToAbout}
+              className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
+              title="Scroll down to learn more"
+              aria-label="Scroll down to learn more"
+            >
               <ArrowDown size={32} />
             </button>
           </div>

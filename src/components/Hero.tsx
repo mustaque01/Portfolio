@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, Code2 } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToAbout = () => {
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
 
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="https://github.com"
+              href="https://github.com/mustaque01"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
               <Github size={24} className="text-gray-700" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/md-mustak-dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
@@ -51,6 +51,14 @@ const Hero: React.FC = () => {
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
             >
               <Mail size={24} className="text-green-600" />
+            </a>
+            <a
+              href="https://leetcode.com/u/mustak_11/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+            >
+              <Code2 size={24} className="text-blue-600" />
             </a>
           </div>
 

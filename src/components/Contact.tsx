@@ -84,6 +84,7 @@ const Contact: React.FC = () => {
                   href="https://github.com/mustaque01"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="GitHub"
                   className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200"
                 >
                   <Github size={20} className="text-gray-700" />
@@ -92,6 +93,7 @@ const Contact: React.FC = () => {
                   href="https://www.linkedin.com/in/md-mustak-dev/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="LinkedIn"
                   className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center hover:bg-blue-200 transition-colors duration-200"
                 >
                   <Linkedin size={20} className="text-blue-600" />
@@ -100,6 +102,7 @@ const Contact: React.FC = () => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Twitter"
                   className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center hover:bg-sky-200 transition-colors duration-200"
                 >
                   <Twitter size={20} className="text-sky-600" />

@@ -35,6 +35,8 @@ const Hero: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+              title="GitHub"
+              aria-label="GitHub"
             >
               <Github size={24} className="text-gray-700" />
             </a>
@@ -43,12 +45,16 @@ const Hero: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+              title="LinkedIn"
+              aria-label="LinkedIn"
             >
               <Linkedin size={24} className="text-blue-600" />
             </a>
             <a
               href="mailto:mustakarman560@gmail.com"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+              title="Email"
+              aria-label="Email"
             >
               <Mail size={24} className="text-green-600" />
             </a>
@@ -57,6 +63,8 @@ const Hero: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+              title="LeetCode"
+              aria-label="LeetCode"
             >
               <Code2 size={24} className="text-blue-600" />
             </a>

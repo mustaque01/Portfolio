@@ -46,9 +46,9 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     id: 1,
-    company: "Tech Innovations Inc.",
+    company: "Hackathone project Inc.",
     position: "Senior Frontend Developer",
-    duration: "2022 - Present",
+    duration: "2 months",
     description: [
       "Lead development of customer-facing web applications using React and TypeScript",
       "Implemented responsive design systems and improved page load times by 40%",
@@ -59,41 +59,35 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    company: "Digital Solutions LLC",
+    company: "Mental Wellness Companion Web App",
     position: "Full Stack Developer",
-    duration: "2020 - 2022",
+    duration: "May 2025 - Present",
     description: [
-      "Developed and maintained full-stack web applications using MERN stack",
-      "Built RESTful APIs and integrated third-party services",
-      "Optimized database queries and improved application performance",
-      "Participated in agile development processes and sprint planning"
+      //"Developed and maintained full-stack web applications using MERN stack",
+      //"Built RESTful APIs and integrated third-party services",
+      //"Optimized database queries and improved application performance",
+      //"Participated in agile development processes and sprint planning"
+      "working on a mental wellness companion web app that provides personalized mental health resources and support through a user-friendly interface. The app includes features such as mood tracking, guided meditation, and access to professional resources.",
     ],
-    technologies: ["React", "Node.js", "MongoDB", "Express.js", "AWS"]
-  },
-  {
-    id: 3,
-    company: "StartupXYZ",
-    position: "Frontend Developer",
-    duration: "2019 - 2020",
-    description: [
-      "Created responsive web interfaces for mobile and desktop platforms",
-      "Implemented state management solutions and component libraries",
-      "Worked closely with designers to create intuitive user experiences",
-      "Contributed to open-source projects and team documentation"
-    ],
-    technologies: ["React", "Redux", "JavaScript", "SCSS", "Webpack"]
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "AWS" , "vercel"]
   }
+  // Add more experiences as needed
 ];
 
 export const skills: Skill[] = [
   { name: "React", icon: "⚛️", proficiency: 95 },
   { name: "TypeScript", icon: "📘", proficiency: 90 },
-  { name: "JavaScript", icon: "💛", proficiency: 95 },
+  { name: "JavaScript", icon: "💛", proficiency: 92 },
   { name: "Node.js", icon: "🟢", proficiency: 85 },
+  { name: "DSA", icon: "📊", proficiency: 88 },
+  { name: "Express.js", icon: "🚂", proficiency: 85 },
   { name: "Python", icon: "🐍", proficiency: 80 },
   { name: "PostgreSQL", icon: "🐘", proficiency: 75 },
   { name: "MongoDB", icon: "🍃", proficiency: 80 },
   { name: "AWS", icon: "☁️", proficiency: 70 },
   { name: "Docker", icon: "🐳", proficiency: 75 },
-  { name: "Git", icon: "📚", proficiency: 90 }
+  { name: "Git", icon: "📚", proficiency: 90 },
+  { name: "C++", icon: "🟦", proficiency: 90 },
+  { name: "MySQL", icon: "🐬", proficiency: 96 },
+  { name: "RESTful APIs", icon: "🔗", proficiency: 92 }
 ];

@@ -1,6 +1,5 @@
 import React from 'react';
 import { skills } from '../data/portfolio';
-
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20 bg-gray-50">
@@ -15,7 +14,7 @@ const Skills: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          {skills.map((skill, index) => (
+          {skills.map((skill) => (
             <div
               key={skill.name}
               className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-105 group"
@@ -24,13 +23,10 @@ const Skills: React.FC = () => {
                 <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-200">
                   {skill.icon}
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">{skill.name}</h3>
-                <div className="w-full bg-gray-200 rounded-full h-2">
-                  <div
-                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000"
-                    style={{ width: `${skill.proficiency}%` }}
-                  ></div>
-                </div>
+                <div
+                  className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 proficiency-bar"
+                  data-width={skill.proficiency}
+                ></div>
                 <p className="text-sm text-gray-500 mt-1">{skill.proficiency}%</p>
               </div>
             </div>

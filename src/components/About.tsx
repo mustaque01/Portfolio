@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Palette, Zap } from 'lucide-react';
+// import { experiences } from '../data/portfolio'; // Assuming you have a data file for experiences
 
 const About: React.FC = () => {
   return (

@@ -3,38 +3,31 @@ import { skills } from '../data/portfolio';
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
             Skills & Technologies
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto text-lg text-gray-600">
             Technologies I work with to bring your ideas to life
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-105 group"
+              className="flex flex-col items-center justify-center p-6 transition bg-white rounded-lg shadow hover:bg-gray-100"
             >
-              <div className="text-center">
-                <div className="text-3xl mb-3 group-hover:scale-110 transition-transform duration-200">
-                  {skill.icon}
-                </div>
-                <div
-                  className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 proficiency-bar"
-                  data-width={skill.proficiency}
-                ></div>
-                <p className="text-sm text-gray-500 mt-1">{skill.proficiency}%</p>
-              </div>
+              <span className="mb-2 text-4xl">{skill.icon}</span>
+              <span className="mb-1 font-semibold text-gray-800">{skill.name}</span>
+              <span className="text-sm text-gray-500">{skill.proficiency}%</span>
             </div>
           ))}
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-gray-600 mb-8">
+          <p className="mb-8 text-gray-600">
             Always learning and exploring new technologies to stay current with industry trends
           </p>
           <div className="flex justify-center space-x-8 text-sm text-gray-500">
